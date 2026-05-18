@@ -1,0 +1,9 @@
+monitoring:
+  prometheus:
+    enabled: true
+    port: 9090
+  tracing:
+    enabled: true
+    exporter: otlp
+
+# rev 20260518110811-e0dad42b
