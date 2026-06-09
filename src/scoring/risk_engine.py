@@ -229,4 +229,4 @@ def ensure_score_table(dynamodb_resource: Any, table_name: str, region: str = "u
         waiter.wait(TableName=table_name)
         logger.info("DynamoDB table %s created", table_name)
 
-# _r 20260606120909-60920f0d
+# _r 20260609140311-59951d9e

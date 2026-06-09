@@ -231,4 +231,4 @@ def load_and_apply(
     rules = load_rules_from_yaml(rules_path)
     return apply_suppressions(findings, rules)
 
-# _r 20260606104113-8968ff0e
+# _r 20260606153613-f97ddace
